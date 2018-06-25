@@ -50,7 +50,7 @@ function handleResponse(response) {
   firstFivePlaces.forEach(function(place) {
     console.log(place);
     $('#js-results-list').append(
-      '<div class="js-result-location">' + place.city + place.state + place.name + place.directions + '</div>');
+      '<div class="js-result-location">' + place.city + '; ' + place.state + '; ' + place.name + '; ' + place.directions + '</div>');
   });
  }
  
