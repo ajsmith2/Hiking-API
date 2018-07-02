@@ -1,16 +1,228 @@
-
-.main {
-	color: #1d7874;
-	background-color: #f4c095;
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
 }
-#map { 
-	height: 400px; width: 300px; margin: 0 auto; 
+body 
+{
+ font-family: 'Open Sans', sans-serif;
+ color: #ff3366;
+ font-weight: lighter;
 }
-
-.js-result-location {
-	border: 2px solid white;
-	border-radius: .25;
-	color: white;
-	background-color: #071e22;
+p 
+{
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #666666;
+  text-align: left;
 }
+.nav-bar-one
+{
+ background-color: white;
+ height: 70px;
+ color: #ff3366;
+ width: 5%;
+ display: inline-block;
+ margin: 0px;
+ position: relative;
+ top: 0px;
+}
+.trampl-logo
+{
+width: 20%;
+position: absolute;
+top: 0px;
+padding: 0px;
+margin: 0px;
+display: inline-block;
+} 
+.nav-bar-two 
+{
+   background-color: white;
+ height: 70px;
+ color: #ff3366;
+ width: 68%;
+ display: inline-block;
+ margin: 0px;
+ position: relative;
+ top: 0px;
+ float: right;
+}
+.catch-phrase 
+{
+  position: absolute;
+  display: inline-block;
+  padding: 20px 0px 10px 20px;
+  font-size: 24px;
+  font-weight: lighter;
 
+}
+.background-image
+{
+ width: 100%;
+ margin: 0;
+ position: relative;
+ z-index: -1;
+}
+.form-bar 
+{
+  width:100%;
+  height: 10%;
+  margin: 0;  
+  background-color: white;
+  border: 2px solid white;
+  opacity: 80;
+}
+.form-base 
+{
+  width: 80%;
+  height: 30%;
+  margin-left: 9%;
+  margin-right: 11%;
+  background-color: #ff3366;
+  border: 2px solid white;
+  padding: 0px;
+  margin-top: -32%;
+  font-size: 0px;
+  z-index: 1; 
+  position: absolute;  
+  display: inline-block;
+  box-sizing: border-box;
+}
+.form
+{
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.input  
+{
+  border: 2px solid white;
+  background-color: #ff3366;
+  color: white;
+  width:  40%;
+    padding: 10px 10px;
+    margin: 8px 0 0 10px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.or 
+{
+width: 20px;
+color: white;  
+z-index: 1;
+}
+.search-button
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*width: 35%;  
+  height: 37px;*/
+  padding-right: 5px;
+  background-color: white;
+  border: 2px solid white;
+  box-sizing: border-box;
+  display: inline-block;
+
+}
+.share-button 
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*width: 35%;  
+  height: 37px;*/
+  padding-right: 5px;
+  background-color: white;
+  border: 2px solid white;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.compassNeedle
+{
+  width: 10px;
+}
+.step
+{
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+.snippet 
+{
+ font-size:12px;
+ width: 24.7%;
+ display: inline-block;
+ margin: 0 4%;
+ border: 2px solid white;
+ padding: 0px;
+}
+.container 
+{
+ padding: 0 50px;
+ font-size:0px;
+ margin-top:-50px;
+}
+.snippet-img 
+{
+  width: 100%;
+}
+.snippet, .img-text 
+{
+  text-align: center;
+  font-weight: lighter;
+}
+.info
+{
+  margin-top: 200px;
+  width: 50%
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.why 
+{
+  text-align: center;
+  display: block;
+  font-weight: lighter;
+}
+.hiking 
+{
+  text-align: center;
+  display: block;
+  font-weight: lighter;
+}
+.info-p
+{
+  padding: 20px;
+  text-align: center;
+}
+.container-two 
+{
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-top: 200px;
+}
+.logo-snippet 
+{
+  width: 100%;
+
+ margin-left: auto;
+ padding-left: 13%;
+ margin-right: auto; 
+ display: inline-block;
+}
+.logo-img 
+{
+  width: 12%;
+  margin-left: 8%;
+  margin-right: 8%; 
+  margin-bottom: 20px; 
+}
+.footer
+{
+  height: 100px;
+  width: 100%;
+  background-color: #2e343b;
+  display: block;
+}

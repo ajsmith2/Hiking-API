@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hiking API</title>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	<main role="main">
+		<section class="searchHtml">
+	<h1>Tromp</h1>
+	<h2>Look for a hiking trail</h2>
+	<form>
+		<label for="query" aria-label="explicit"></label>
+		<input type="text" id="js-query" role="combobox">
+		<button class="js-search-button" type="submit">Search</button>
+	</form>
+	<h2 class="resultsHeading">Trails</h2>
+	<div class="js-search-results" aria-live="assertive"></div>
+		<ul id="js-results-list" aria-live="assertive"></ul>
+</section>
+<div id="map"></div>
+	</main>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNqOlGbJFs95YPIab0ln69BmcmNrcWaY8"></script>
+  <script src="GoogleMapsWrapper.js" type="module"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="index.js" type="module"></script>
+</body>
+</html>
+
+
